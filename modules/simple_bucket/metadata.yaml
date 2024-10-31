@@ -22,7 +22,7 @@ spec:
   info:
     title: Terraform Google Cloud Storage Module
     source:
-      repo: https://github.com/terraform-google-modules/terraform-google-cloud-storage.git
+      repo: https://github.com/q2w/terraform-google-cloud-storage.git
       sourceType: git
       dir: /modules/simple_bucket
     version: 8.0.1
@@ -82,7 +82,7 @@ spec:
         defaultValue: []
         connections:
           - source:
-              source: github.com/GoogleCloudPlatform/terraform-google-cloud-run//modules/v2
+              source: github.com/q2w/terraform-google-cloud-run//modules/v2
               version: ~> 0.13
             spec:
               outputExpr: '{"member": service_account_id.member, "role": "roles/storage.objectAdmin"}'
