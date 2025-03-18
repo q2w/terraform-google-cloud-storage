@@ -74,7 +74,7 @@ spec:
             spec:
               outputExpr: "{\"member\": service_account_info.member, \"role\": \"roles/storage.objectAdmin\"}"
           - source:
-              source: github.com/terraform-google-modules/terraform-google-service-accounts//modules/simple-sa
+              source: github.com/q2w/terraform-google-service-accounts//modules/simple-sa
               version: ">= 4.4"
             spec:
               outputExpr: "{\"member\": iam_email, \"role\": \"roles/storage.objectAdmin\"}"
